@@ -1,0 +1,78 @@
+@media only screen and (max-width: 243px) {
+  div {
+    border: solid;
+    border-radius: 45px;
+
+    background-color: antiquewhite;
+  }
+  border {
+    background-color: green;
+  }
+
+  p {
+    padding-bottom: 10px;
+  }
+  input[type="text"] {
+    width: 70px;
+  }
+  input[type="password"] {
+    width: 70px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  input[type="text"] {
+    width: 60%;
+  }
+
+  div {
+    width: fit-content;
+
+    padding: 5px;
+    margin: 70px;
+    background-color: blue;
+  }
+}
+div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+
+  border: double;
+  width: 60%;
+  background-color: aqua;
+  text-align: center;
+  border-radius: 3px;
+  font-weight: 500;
+  font-family: "Courier New", Courier, monospace;
+}
+input[type="text"] {
+  padding: 10px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+input[type="text"]:focus {
+  background-color: lightblue;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+input[type="password"] {
+  padding: 10px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+input[type="password"]:focus {
+  background-color: lightblue;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+input[type="button"] {
+  padding: 10px;
+  border: solid;
+  border-radius: 35px;
+  color: yellow;
+  background-color: black;
+}

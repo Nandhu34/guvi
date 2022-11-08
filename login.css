@@ -1,0 +1,96 @@
+div{
+    border:double;
+   border-color:palevioletred;
+        width:auto;
+    padding: 10px;
+        text-align: center;
+        font-size: medium;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:bisque;
+        background-color: black;
+        
+            width: 40%;;
+    
+          
+            margin: 70px;
+}
+body{
+    background-color: aqua;
+}
+div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type="text"]:focus {
+    color:wheat;
+    background-color:cornsilk;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+input[type="password"]:focus {
+    color:wheat;
+    background-color:cornsilk;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+#click
+{
+    color:darkorange;
+}
+input[type="submit"]:focus {
+    color:black;
+    background-color:yellow ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+input[type="text"]
+{
+    padding:10px;
+    border-radius: 10px;
+
+}
+input[type="password"]
+{
+    padding:10px;
+    border-radius:10px;
+
+}
+input[type="submit"]
+{
+    padding:10px;
+    border-radius:23px;
+
+}
+
+
+
+@media only screen and (max-width: 243px) {
+    div {
+      border: solid;
+      border-radius: 45px;
+  
+      background-color: antiquewhite;
+    }
+    border {
+      background-color: green;
+    }
+  
+    p {
+      padding-bottom: 10px;
+    }
+    input[type="text"] {
+      width: 70px;
+    }
+    input[type="password"] {
+      width: 70px;
+    }
+  }
+  
+  @media only screen and (min-width: 1500px) {
+    input[type="text"] {
+      width: 30%;
+    }
+  
+   
+  }
